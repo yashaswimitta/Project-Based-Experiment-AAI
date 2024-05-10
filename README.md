@@ -14,7 +14,7 @@ from textblob import TextBlob
 data = pd.read_csv("fb_sentiment.csv")
 
 # Given name to count occurrences
-
+given_name = "Yashaswi"
 
 # Initialize counters for sentiment analysis
 sentiment_counts = {'positive': 0, 'negative': 0, 'neutral': 0}
@@ -40,7 +40,7 @@ print(f"Occurrences of '{given_name}': {name_occurrences}")
 ```
 
 ## OUTPUT:
-![WhatsApp Image 2024-05-10 at 7 26 37 PM](https://github.com/yashaswimitta/Project-Based-Experiment-AAI/assets/94619247/c0a85545-82e3-4a6d-b297-20792295f1ad)
+<img width="256" alt="aai " src="https://github.com/yashaswimitta/Project-Based-Experiment-AAI/assets/94619247/6c1fdfaf-4683-4d13-b4cb-79364da617d8">
 
 
 
