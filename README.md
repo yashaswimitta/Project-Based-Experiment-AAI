@@ -14,7 +14,7 @@ from textblob import TextBlob
 data = pd.read_csv("fb_sentiment.csv")
 
 # Given name to count occurrences
-given_name = "Paarkavy"
+
 
 # Initialize counters for sentiment analysis
 sentiment_counts = {'positive': 0, 'negative': 0, 'neutral': 0}
@@ -40,7 +40,9 @@ print(f"Occurrences of '{given_name}': {name_occurrences}")
 ```
 
 ## OUTPUT:
-![output](op1.png)
+![WhatsApp Image 2024-05-10 at 7 26 37 PM](https://github.com/yashaswimitta/Project-Based-Experiment-AAI/assets/94619247/c0a85545-82e3-4a6d-b297-20792295f1ad)
+
+
 
 ## INFERENCE:
 By exploring sentiment analysis techniques and applying them to social media data, I gained practical experience in extracting sentiment information and identifying patterns in text. Additionally, counting occurrences of specific names enhanced my understanding of text processing and how to extract meaningful information from large datasets.
